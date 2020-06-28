@@ -10,7 +10,7 @@
 
 بمجرد ما تكتب الأمر `git init` ستجد أنه تم إنشاء مجلد اسمه `.git` وهو يحتوي على كل شيء متعلق بالمستودع.
 
-![git-init-gif](./assets/git-init-gif)
+![git-init-gif](./assets/git-init.gif)
 
 ### 2. `git add .`
 
