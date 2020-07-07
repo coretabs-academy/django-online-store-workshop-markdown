@@ -22,7 +22,9 @@
 
 ## ملحق
 
-[هنا شرح لأهم عشرة ثغرات يجب على كل مطور معرفتها!](https://www.youtube.com/watch?v=rWHvp7rUka8&list=PLyqga7AXMtPPuibxp1N0TdyDrKwP9H_jD)
+**[هنا شرح لأهم عشرة ثغرات يجب على كل مطور معرفتها!**
+
+https://www.youtube.com/watch?v=rWHvp7rUka8&list=PLyqga7AXMtPPuibxp1N0TdyDrKwP9H_jD
 
 [Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
 
