@@ -26,8 +26,8 @@ urlspattrens = [
     path('', include('products.urls'))
 ]
 ```
-**products/urls.py**
 
+**products/urls.py**
 ```
 from django.urls import include, path
 from .views import product_list, product_details, add_product, edit_product
