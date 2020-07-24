@@ -1,6 +1,6 @@
-# إطلاق المشروع على PythonAnywhere الجزء الأول
+# إطلاق المشروع على PythonAnywhere
 
-في هذا سنتعلم كيفية اطلاق المشروع على PythonAnywhere وتغير ال db من postgres الى mysql
+في هذا الدرس سنتعلم كيفية اطلاق المشروع على PythonAnywhere.
 
 ## خطوات اطلاق المشروع:
 
