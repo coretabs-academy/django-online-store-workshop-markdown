@@ -1,0 +1,91 @@
+ ^ تتكون قواعد البيانات من جدول و عمود وصف.
+
+** صحيح
+* خاطئ
+
+$ حاول مرة أخرى أو راجع الدروس السابقة
+
+-
+
+^ ماهي لغة SQL؟
+
+* هي لغة تقوم بانشاء قواعد البيانات
+
+** هي لغة برمجة تختص في ادارة والتعامل مع قوعد البيانات
+
+* هي لغة برمجة تختص في عرض البيانات التي بداخل قاعدة البيانات
+
+$ حاول مرة أخرى أو راجع الدروس السابقة
+
+-
+
+^ لماذا نحتاج RDBMS؟
+
+* Atomicity
+
+* Consistency
+
+* Isolation
+
+* Durability
+
+** كل ماسبق
+
+$ حاول مرة أخرى أو راجع الدروس السابقة
+
+-
+
+^ اي من هذه الأنظمة سهل التجهيز مقارنة بالباقي؟
+
+* MySQL
+
+*PostgreSQL
+
+** SQLite
+
+* Microsoft SQL Server
+
+* ORACLE
+
+$ حاول مرة أخرى أو راجع الدروس السابقة
+
+-
+
+^ علاقة واحد الى واحد تتم باضافة جدول وسيط يحتوي على id و مفتاح اجنبي يشير للجدول الأول و مفتاح اجنبي يشيرللجدول الثاني.
+
+* صحيح
+
+** خاطئ
+
+$ حاول مرة أخرى أو راجع الدروس السابقة
+
+-
+
+^ ماهو المفتاح الرئيسي؟
+
+** وهو حقل يجب ان يكون موجود في اي جدول ويجب ان لا تتكرر قيمته اكثر من مرة.
+
+* وهو حقل يشير الى جدول أخر.
+
+$ حاول مرة أخرى أو راجع الدروس السابقة
+
+-
+
+^ لنفرض انه لدينا هذه المنتجات 
+
+| id | name                      | description                                                                                                                                       |
+|----|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Crossbody Wallet Bag      | Multicoloured bucket bag. Exterior with mesh and rhinestone details. Chain handles with combined materials. Chain shoulder strap. Lined interior. |
+| 2  | Asymmetric Stiletto Shoes | Asymmetric design. Side slit. Pointed. Stiletto heel. 9.5 cm heel.                                                                                |
+| 3  | Rugan Wallet              | LINING: 69% POLYESTER, 31% COTTON COATING: 100% POLYURETHANE BASE FABRIC: 100% POLYESTER.                                                         |
+
+
+ اي من هذه الاوامر تجلب لنا المنتج Rugan Wallet؟
+
+* `Product.objects.filter(title='Rugan Wallet')`
+
+** `Product.objects.get(title='Rugan Wallet')`
+
+*  `Product.objects.exclude(title='Rugan Wallet')`
+
+$ حاول مرة أخرى أو راجع الدروس السابقة
