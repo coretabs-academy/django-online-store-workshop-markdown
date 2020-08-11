@@ -73,12 +73,9 @@ $ حاول مرة أخرى أو راجع الدروس السابقة
 
 ^ لنفرض انه لدينا هذه المنتجات 
 
-| id | name                      | description                                                                                                                                       |
-|----|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Crossbody Wallet Bag      | Multicoloured bucket bag. Exterior with mesh and rhinestone details. Chain handles with combined materials. Chain shoulder strap. Lined interior. |
-| 2  | Asymmetric Stiletto Shoes | Asymmetric design. Side slit. Pointed. Stiletto heel. 9.5 cm heel.                                                                                |
-| 3  | Rugan Wallet              | LINING: 69% POLYESTER, 31% COTTON COATING: 100% POLYURETHANE BASE FABRIC: 100% POLYESTER.                                                         |
-
+1. Crossbody Wallet Bag
+2. Asymmetric Stiletto Shoes 
+3. Rugan Wallet
 
  اي من هذه الاوامر تجلب لنا المنتج Rugan Wallet؟
 
