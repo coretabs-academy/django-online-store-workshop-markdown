@@ -71,13 +71,7 @@ $ حاول مرة أخرى أو راجع الدروس السابقة
 
 -
 
-^ لنفرض انه لدينا هذه المنتجات 
-
-1. Crossbody Wallet Bag
-2. Asymmetric Stiletto Shoes 
-3. Rugan Wallet
-
- اي من هذه الاوامر تجلب لنا المنتج Rugan Wallet؟
+ ^ اي من هذه الاوامر تجلب لنا المنتج Rugan Wallet؟
 
 * `Product.objects.filter(title='Rugan Wallet')`
 
