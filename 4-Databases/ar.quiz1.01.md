@@ -1,4 +1,4 @@
- ^ تتكون قواعد البيانات من جدول و عمود وصف.
+ ^ تتكون قواعد البيانات من جداول و أعمدة وصفوف.
 
 ** صحيح
 * خاطئ
@@ -77,6 +77,6 @@ $ حاول مرة أخرى أو راجع الدروس السابقة
 
 ** `Product.objects.get(title='Rugan Wallet')`
 
-*  `Product.objects.exclude(title='Rugan Wallet')`
+* `Product.objects.exclude(title='Rugan Wallet')`
 
 $ حاول مرة أخرى أو راجع الدروس السابقة
