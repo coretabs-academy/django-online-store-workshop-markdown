@@ -71,7 +71,7 @@ $ حاول مرة أخرى أو راجع الدروس السابقة
 
 -
 
- ^ اي من هذه الاوامر تجلب لنا المنتج Rugan Wallet؟
+^ اي من هذه الاوامر تجلب لنا المنتج Rugan Wallet؟
 
 * `Product.objects.filter(title='Rugan Wallet')`
 
