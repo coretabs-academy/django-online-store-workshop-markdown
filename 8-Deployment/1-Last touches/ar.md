@@ -1,7 +1,8 @@
 # اللمسات الأخيرة
+
 في هذا الدرس سنقوم بتنظيم المشروع قبل عملية الإطلاق.
 
-**تنظيف ال `migrations`**
+## تنظيف ال `migrations`
 
 نريد ان يكون مجلد `migrations` مكون من ملف واحد فقط وليس عدة ملفات تحتوي على التعديلات التي حصلت للمودل. طبق معي هذه الخطوات:
 
@@ -11,27 +12,27 @@
 4. احذف ملف قاعدة البيانات `db.sqlite3`
 5. قم بعمل `python manage.py migrate`
 
-**تنظيم الروابط `urls.py`**
+## تنظيم الروابط `urls.py`
 
 1. اضف `/` عند نهاية كل رابط.
-2. اضف نوع البارامترفي الرابط مثل `<int: pk>`
-3. بادئة الرابط اكتبها بداخل ملف ال `<app>/urls.py` التطبيق بدلا من الملف الرئيسي `store.py`  مثال لتطبيق *products*
+2. اضف نوع البارامتر في الرابط مثل `<int: pk>`
+3. بادئة الرابط اكتبها بداخل ملف ال `<app>/urls.py` التطبيق بدلا من الملف الرئيسي `store/urls.py` مثال لتطبيق *products*
 
-**store/urls.py**
-```
+### store/urls.py
+
+``` python
 from django.urls import include, path
-
 
 urlspattrens = [
     path('', include('products.urls'))
 ]
 ```
 
-**products/urls.py**
-```
+### products/urls.py
+
+``` python
 from django.urls import include, path
 from .views import product_list, product_details, add_product, edit_product
-
 
 urlspattrens = [
     path('products/', product_list, name='product_list'),
