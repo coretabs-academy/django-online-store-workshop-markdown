@@ -39,7 +39,7 @@ $ حاول مرة أخرى أو راجع الدروس السابقة
 
 * MySQL
 
-*PostgreSQL
+* PostgreSQL
 
 ** SQLite
 

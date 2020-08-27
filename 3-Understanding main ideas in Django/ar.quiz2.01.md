@@ -32,7 +32,7 @@ $ حاول مرة أخرى أو راجع الدروس السابقة
 
 ^ ماهو الامر الذي يمكننا من انشاء سوبر يوزر؟
 
-* 'python manage.py migrate'
+* `python manage.py migrate`
 
 * `python manage.py superuser`
 
